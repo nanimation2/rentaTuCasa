@@ -1,0 +1,71 @@
+.home{
+    height: 600px;
+    background-image: url("./Casa.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:auto;
+    text-align: center;
+    color: rgb(173, 206, 255);
+}
+.showRoom{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.showRoom a{
+    text-decoration: none;
+    color: black;
+}
+
+.showRoom a:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.tituloShowRoom{
+    text-align: center;
+}
+
+.ciudadesUno{
+   
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ciudadesDos{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+ .card-title{
+    text-align: center;
+}
+.contacto{
+   margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    width: 50%;
+    
+}
+form h3{
+    text-align: center;
+}
+footer{
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
