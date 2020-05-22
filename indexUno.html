@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./stylesIndex.css">
+    <title>Renta Tu Casa</title>
+</head>
+
+<body>
+    <!-- navbar     -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sitcky-top">
+        <div class="container-fluid">
+            <a href="#" class="homeImg">
+            <div>
+                <img src="./logo.png" alt="" class="logo">
+                <span>RENTA TU CASA</span>
+            </div>
+        </a>
+          
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsibe">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Renta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Venta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Publica una propiedad</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- header   -->
+    <div class="home d-flex justify-content-center align-items-center">
+        <div class="textoPrincipal ">
+            <h1>Renta tu casa</h1>
+            <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum</h3>
+        </div>
+    </div>
+    <!-- cards de ciudades  -->
+    <section class="showRoom">
+        <div class="tituloShowRoom">
+            <h3>Propiedades</h3>
+        </div>
+        <div class="ciudadesUno">
+            <a href="#">
+                <div class="card" style="width: 18rem;">
+                    <img src="./medellin.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Medellín</h5>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card" style="width: 18rem;">
+                    <img src="./bogota.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bogota</h5>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card" style="width: 18rem;">
+                    <img src="./cartagena.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cartagena</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="ciudadesDos">
+            <a href="#">
+                <div class="card" style="width: 18rem;">
+                    <img src="./guadalajara.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Guadalajara</h5>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card" style="width: 18rem;">
+                    <img src="./cdmx.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CDMX</h5>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card" style="width: 18rem;">
+                    <img src="./monterrey.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Monterrey</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- formulario contacto  -->
+    <div class="contacto">
+        <h3>Contactanos</h3>
+        <form class="mew-form">
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input class="form-control" type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+            <label for="mail">Correo</label>
+            <input type="email" class="form-control" name="email" id="email" required>
+            </div>
+            <div class="form-group">
+            <label for="content">Mensaje</label>
+            <textarea class="form-control" type="text" id="content" name="content" required></textarea>
+            </div>  
+            <button type="submit" class="btn btn-primary mb-2">Enviar</button>
+        </form>
+        <div class="alert alert-success none" id="mensajeEnviado">
+            <label class="" for="">Tu mensaje fue enviado</label>
+        </div>
+
+
+    </div>
+    <footer class="footer">
+        <p>Siguenos en nuestras redes sociales</p>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+    </footer>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
