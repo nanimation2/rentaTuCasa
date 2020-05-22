@@ -5,7 +5,7 @@
     background-position:center;
     background-size:auto;
     text-align: center;
-    color: rgb(173, 206, 255);
+    color: black;
 }
 .showRoom{
     margin-top: 15px;
@@ -57,10 +57,14 @@
 }
 form{
     width: 50%;
-    
+
 }
 form h3{
     text-align: center;
+   
+}
+.none{
+    display: none;
 }
 footer{
     padding: 2.5rem 0;
@@ -70,15 +74,14 @@ footer{
     border-top: .05rem solid #e5e5e5;
 }
 .fa {
-    padding: 20px 45px 20px 20px;
-    font-size: 30px;
+    padding: 15px 33px 15px 15px;
+    font-size: 20px;
     width: 50px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
   }
   
-
   .fa:hover {
     opacity: 0.7;
   }

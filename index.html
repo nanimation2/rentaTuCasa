@@ -103,22 +103,27 @@
 
     <!-- formulario contacto  -->
     <div class="contacto">
-        <form>
-            <h3>Contactanos</h3>
+        <h3>Contactanos</h3>
+        <form class="mew-form">
             <div class="form-group">
-                <label>Nombre</label>
-                <input type="Text" class="form-control" id="exampleFormControlInput1">
+                <label for="name">Nombre</label>
+                <input class="form-control" type="text" id="name" name="name" required>
             </div>
             <div class="form-group">
-                <label>Correo</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1">
+            <label for="mail">Correo</label>
+            <input type="email" class="form-control" name="email" id="email" required>
             </div>
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Mensaje</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
+            <label for="content">Mensaje</label>
+            <textarea class="form-control" type="text" id="content" name="content" required></textarea>
+            </div>  
             <button type="submit" class="btn btn-primary mb-2">Enviar</button>
         </form>
+        <div class="alert alert-success none" id="mensajeEnviado">
+            <label class="" for="">Tu mensaje fue enviado</label>
+        </div>
+
+
     </div>
     <footer class="footer">
         <p>Siguenos en nuestras redes sociales</p>
@@ -139,6 +144,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
 </body>
 
 </html>
