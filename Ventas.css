@@ -1,0 +1,30 @@
+
+.carousel, .carousel-inner, .carousel-item, img{
+    width: 850px;
+    height: 400px;
+}
+.carruselVenta{
+    display:flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.contenedorVender{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.Formulario{
+    display:flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+h1{
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+}
+.Enviar{
+    text-decoration: none;
+    color: white;
+}
