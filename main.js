@@ -1,24 +1,28 @@
 console.log('Hello World!');
-
-const form = document.querySelector('form'); // grabbing an element on the page
+// constantes para formContacto -----------------
+// const form = document.querySelector('form'); // grabbing an element on the page
+const formContacto = document.getElementById('formContacto')
 let mensajeEnviado = document.getElementById('mensajeEnviado')
+// ---------constante para formVender
+const formVender = document.getElementById('fomrVender')
 
-form.addEventListener('submit', (event) => {
+
+formContacto.addEventListener('submit', (event) => {
     event.preventDefault();
     console.log('Hello World!');
-    const formData = new FormData(form);
-    const name = formData.get('name')
-    const mail = formData.get('email')
-    const content = formData.get('content')
+    const formData = new FormData(formContacto);
+    const name = formData.get('name');
+    const mail = formData.get('email');
+    const content = formData.get('content');
     
-    const mew = {
+    const datosContacto = {
         name,
         mail,
         content
 
     };
-    console.log(mew)
-    form.reset();
+    console.log(datosContacto)
+    formContacto.reset();
     mensajeEnviado.classList.remove('none')
 
 });
