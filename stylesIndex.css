@@ -1,3 +1,17 @@
+a {
+    text-decoration: none;
+    color: black;
+    /* background: blue; */
+
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width: 100px;
+}
 .home{
     height: 600px;
     background-image: url("./Casa.jpg");
