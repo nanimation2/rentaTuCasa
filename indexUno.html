@@ -11,17 +11,16 @@
     <title>Renta Tu Casa</title>
 </head>
 
-<body>
+<body class="p-3 mb-2 bg-light text-dark">
     <!-- navbar     -->
     <nav class="navbar navbar-expand-md navbar-light bg-light sitcky-top">
         <div class="container-fluid">
-            <a href="#" class="homeImg">
-            <div>
-                <img src="./logo.png" alt="" class="logo">
-                <span>RENTA TU CASA</span>
-            </div>
-        </a>
-          
+            <a href="indexUno.html" class="homeImg">
+                <div>
+                    <img src="./logo.png" alt="" class="logo">
+                    <span>RENTA TU CASA</span>
+                </div>
+            </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsibe">
                 <span class="navbar-toggler-icon"></span>
@@ -29,10 +28,10 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Renta</a>
+                        <a class="nav-link" href="./Renta.html">Renta</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Venta</a>
+                        <a class="nav-link" href="./Venta.html">Venta</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Publica una propiedad</a>
@@ -56,7 +55,7 @@
         <div class="ciudadesUno">
             <a href="#">
                 <div class="card" style="width: 18rem;">
-                    <img src="./medellin.jpg" class="card-img-top" alt="...">
+                    <img src="./img/medellin.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Medellín</h5>
                     </div>
@@ -64,7 +63,7 @@
             </a>
             <a href="#">
                 <div class="card" style="width: 18rem;">
-                    <img src="./bogota.jpg" class="card-img-top" alt="...">
+                    <img src="./img/bogota.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Bogota</h5>
                     </div>
@@ -72,7 +71,7 @@
             </a>
             <a href="#">
                 <div class="card" style="width: 18rem;">
-                    <img src="./cartagena.jpg" class="card-img-top" alt="...">
+                    <img src="./img/cartagena.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Cartagena</h5>
                     </div>
@@ -83,7 +82,7 @@
         <div class="ciudadesDos">
             <a href="#">
                 <div class="card" style="width: 18rem;">
-                    <img src="./guadalajara.jpg" class="card-img-top" alt="...">
+                    <img src="./img/guadalajara.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Guadalajara</h5>
                     </div>
@@ -91,7 +90,7 @@
             </a>
             <a href="#">
                 <div class="card" style="width: 18rem;">
-                    <img src="./cdmx.jpg" class="card-img-top" alt="...">
+                    <img src="./img/cdmx.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">CDMX</h5>
                     </div>
@@ -99,7 +98,7 @@
             </a>
             <a href="#">
                 <div class="card" style="width: 18rem;">
-                    <img src="./monterrey.jpg" class="card-img-top" alt="...">
+                    <img src="./img/monterrey.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Monterrey</h5>
                     </div>
@@ -111,19 +110,19 @@
     <!-- formulario contacto  -->
     <div class="contacto">
         <h3>Contactanos</h3>
-        <form class="mew-form">
+        <form id="formContacto">
             <div class="form-group">
                 <label for="name">Nombre</label>
                 <input class="form-control" type="text" id="name" name="name" required>
             </div>
             <div class="form-group">
-            <label for="mail">Correo</label>
-            <input type="email" class="form-control" name="email" id="email" required>
+                <label for="mail">Correo</label>
+                <input type="email" class="form-control" name="email" id="email" required>
             </div>
             <div class="form-group">
-            <label for="content">Mensaje</label>
-            <textarea class="form-control" type="text" id="content" name="content" required></textarea>
-            </div>  
+                <label for="content">Mensaje</label>
+                <textarea class="form-control" type="text" id="content" name="content" required></textarea>
+            </div>
             <button type="submit" class="btn btn-primary mb-2">Enviar</button>
         </form>
         <div class="alert alert-success none" id="mensajeEnviado">
